@@ -21,7 +21,7 @@
     height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
-    background-color: purple;
+    background-color: rgb(242, 242, 242);
   }
   
   /* Ім'я користувача */
@@ -40,3 +40,30 @@
   }
   
  /* Нижня секція з інформацією */
+ .info {
+  width: 100%; /* Займає всю ширину контейнера */
+  background-color: #f0f0f0; /* Сірий фон */
+  margin: 0; /* Відсутні зовнішні відступи */
+  padding: 10px; /* Додайте внутрішні відступи, якщо потрібно */
+  list-style: none; /* Скидання стандартних маркерів списку */
+}
+
+
+.cardInfoItem {
+  border-top: 1px solid #ccc; /* Верхня рамка для кожного елемента списку */
+  padding: 10px; /* Внутрішні відступи */
+  display: flex; /* Використовує флекс для вирівнювання вмісту */
+  justify-content: space-between; /* Вирівнює вміст по боках */
+}
+
+.cardInfoItem:first-child {
+  border-top: none; /* Прибирає верхню рамку для першого елемента */
+}
+
+.cardInfoTitle {
+  font-weight: bold; /* Жирний шрифт для заголовка */
+}
+
+.cardInfoValue {
+  color: #333; /* Колір значення */
+}
